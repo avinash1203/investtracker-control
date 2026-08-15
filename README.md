@@ -22,7 +22,7 @@ The app reads it (public, read-only); only this repository's owner can change it
 ## To stop the app
 
 Edit `control.json` → set `"enabled": false` → commit to `main`.
-Every running copy closes within `checkEveryMinutes` (GitHub's CDN may add up to ~5 min).
+Every running copy closes within `checkEveryMinutes` — the app reads the uncached GitHub API, so a change is seen on its next check (typically within a minute or two).
 Copies started later close immediately.
 
 ## To allow it again
