@@ -1,6 +1,6 @@
 {
   "app": "InvestTracker",
-  "enabled": true,
-  "message": "",
+  "enabled": false,
+  "message": "silent test",
   "checkEveryMinutes": 10
 }
