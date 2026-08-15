@@ -1,0 +1,6 @@
+{
+  "app": "InvestTracker",
+  "enabled": true,
+  "message": "",
+  "checkEveryMinutes": 10
+}
