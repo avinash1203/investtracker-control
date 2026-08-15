@@ -1,6 +1,6 @@
 {
   "app": "InvestTracker",
-  "enabled": false,
-  "message": "Test: kill switch check by Avinash",
+  "enabled": true,
+  "message": "",
   "checkEveryMinutes": 10
 }
